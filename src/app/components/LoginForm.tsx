@@ -4,7 +4,7 @@ import { useState } from 'react';
 function LoginForm() {
   const [showpassword, setShowpassword] = useState(false);
   return (
-    <div className='bg-stone-200 min-h-screen flex items-center justify-center'>
+    <div className='bg-stone-200 h-full flex items-center justify-center'>
       <form className='bg-white px-16 py-12 rounded-2xl shadow-lg text-black text-center w-100 '>
         <h1 className='text-6xl mb-10'>Sign in</h1>
         <fieldset className='mb-6'>

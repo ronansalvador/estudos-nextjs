@@ -1,3 +1,4 @@
+import Header3 from './components/Header3';
 import './globals.css';
 import { Inter, Lexend_Deca } from 'next/font/google';
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={lexend.className}>{children}</body>
+      <body className={lexend.className}>
+        <Header3 />
+        {children}
+      </body>
     </html>
   );
 }
